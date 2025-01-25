@@ -21,6 +21,11 @@ export const people = [{
   imageId: 'YfeOqp2'
 }];
 
+/**
+ * Generates the URL for the image based on the image ID.
+ * @param {string} imageId - The image ID to generate the image URL.
+ * @returns {string} The full URL for the image.
+ */
 function getImageUrl(imageId: string) {
   return 'https://i.imgur.com/' + imageId + '.jpg'
 }
