@@ -1,5 +1,5 @@
 import styles from '@/styles/Home.module.css';
-function Square({children}: {children: React.ReactNode}) {
+function Square({ children}: {children: React.ReactNode}) {
   return (
     <div className={styles.square}>
       <p>A Generic Square</p>
