@@ -3,11 +3,11 @@
 // import { Inter } from 'next/font/google'
 // import styles from '@/styles/Home.module.css'
 // import Profile from './components/profile'
-import RecipeList from './qcomps/recipes'
+import List from './qcomps/artistsRemoveArr'
 
 export default function Home() {
   return (
-    <RecipeList />
+    <List />
     // test
   )
 }
